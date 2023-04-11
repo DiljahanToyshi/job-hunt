@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import img from "./Image/P3OLGJ1 copy 1.png";
-import img1 from "./Image/accounts 1.png";
-import img2 from "./Image/business 1.png";
-import img3 from "./Image/chip 1.png";
-import img4 from "./Image/social-media 1.png"
+import img from "./Image/P3OLGJ11.png";
+import img1 from "./Image/accounts.png";
+import img2 from "./Image/business.png";
+import img3 from "./Image/chip.png";
+import img4 from "./Image/media.png"
 import { useLoaderData } from 'react-router-dom';
 import Job from './Navbar/Job';
 

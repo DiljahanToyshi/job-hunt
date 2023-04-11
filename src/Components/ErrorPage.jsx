@@ -40,7 +40,7 @@ const ErrorPage = () => {
           </p>
           <Link
             to="/"
-            className="px-8 py-3 font-semibold rounded bg-cyan-200 text-gray-900"
+            className="bg-gradient-to-r from-indigo-400 to-violet-400 font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-md border-transparent border-2  text-white"
           >
             Back to homepage
           </Link>
