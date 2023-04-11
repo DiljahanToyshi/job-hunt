@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply font-medium transition duration-200 px-4 py-2 rounded-md linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}

@@ -1,0 +1,112 @@
+
+
+[
+    {
+      "_id": "01",
+      
+      "company_name": "Touchpoints Communication Pvt. Ltd. ",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "Onsite",
+      "location":"Faridabad, Haryana, India",
+      "salary":50000,
+      "jobTitle": "Web Developer - HTML/CSS/Javascript",
+      "requirements": "Bachelor degree to complete any reputational university",
+      "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQFommjUn666Xg/company-logo_100_100/0/1676268773386?e=2147483647&v=beta&t=KMGUlivUcUXnG0IsCyFP07mIJRDm3RvttIpen9a644A",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    },
+      {
+      "_id": "02",
+      
+      "company_name": "PT Ciputra Development Tbk  ",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "part-time",
+      "location":" Jakarta, Jakarta, Indonesia",
+      "salary":50000,
+      "jobTitle": "Web Developer - HTML/CSS/Javascript",
+      "requirements": "Minimum Bachelor Degree (IT & Engineering Backgroun with minimum GPA of 3.00.Understanding of PHP coding language and framework Comfortable and fluent with RDBMS Database SQL Server and MySQL Experienced to develop web based application program High analytical and systematic thinking skillsProactive and InitiativeAble to work and communicate as a team",
+      "responsibility": "Responsible to develop, implement, maintain, and improve company web application In charge to execute the internal web application testing Support the web development team with the documentation activity of web application update.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C560BAQFaEUftlshmzA/company-logo_100_100/0/1674986290367?e=2147483647&v=beta&t=7uqQZ1TREDQa60VYoRY8Dkc6KaVuKwm2woPFXQhSOXA",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    },
+      {
+      "_id": "03",
+      
+      "company_name": "IntelliSoft  ",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "onsite",
+      "location":"Hyderabad, Telangana, India ",
+      "salary":50000,
+      "jobTitle": "Jr. Web Developer",
+      "requirements": "Minimum Bachelor Degree (IT & Engineering Backgroun with minimum GPA of 3.00A portfolio of web design and projects you've worked on.Critical-thinking skills. Flexibility in the workplace.Goal-orientated and     deadline-driven.",
+      "responsibility": "Assisting the web development team with all aspects of website and application design.Collaborating with developers to design, develop, test and deploy the websites.Converting designs (video, audio, written, and graphic components) into compatible formats for the web.Writing efficient code, adhering to best practices.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C510BAQHO6Lpi7wmalA/company-logo_100_100/0/1532607404387?e=2147483647&v=beta&t=07G4ODYroCClXh2wtzoDrkn0sII9RFfS0YcV3tWgyL8",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    },
+    {
+      "_id": "04",
+      
+      "company_name": "Zedex Info Pvt. Ltd  ",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "onsite",
+      "location":"Hyderabad, Telangana, India ",
+      "salary":50000,
+      "jobTitle": "Frontend Developer - HTML/CSS",
+      "requirements": "Minimum Bachelor Degree (IT & Engineering Backgroun with minimum GPA of 3.00A portfolio of web design and projects you've worked on.Critical-thinking skills.Flexibility in the workplace.Goal-orientated and deadline-driven.",
+      "responsibility": "Create website layout/user interface by using standard HTML/CSS practices.Understand the requirements and find an optimal way to build the site logically.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQG7zBREWjYi9g/company-logo_100_100/0/1676454794860?e=2147483647&v=beta&t=_vDN5k0wxwHWoAEZ9kv9TLQlxZDiAtZWMFNv4Bea5_Y",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    },
+    {
+      "_id": "05",
+      
+      "company_name": "First Community Credit Union  ",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "onsite",
+      "location":" Coquille, OR",
+      "salary":"$20.00 - $30.00 (USD) Hourly",
+      "jobTitle": "Junior Frontend Web Developer",
+      "requirements": "Minimum Bachelor Degree (IT & Engineering Backgroun with minimum GPA of 3.00A portfolio of web design and projects you've worked on.Critical-thinking skills.Flexibility in the workplace.Goal-orientated and deadline-driven.",
+      "responsibility": "Create website layout/user interface by using standard HTML/CSS practices.Understand the requirements and find an optimal way to build the site logically.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C560BAQFbCPfy5DR7QA/company-logo_100_100/0/1599776258015?e=2147483647&v=beta&t=7j_-kfBmo7fOPwhIZAayl3sQiJRO3FEPlo9Qmd1hl_g",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    },
+    {
+      "_id": "06",
+      
+      "company_name": "TeleSoftas",
+      "Contact_Information": {
+        "number":"01750000000",
+        "email": " info@gmail.com"
+      },
+      "type": "onsite",
+      "location":"Kaunas, Kauno, Lithuania ",
+      "salary":50000,
+      "jobTitle": "Junior Frontend Developer",
+      "requirements": "At least 1 year of experience in frontend software development with React or frameworks Experience in semantic HTML, Tailwind CSS and automated tests.",
+      "responsibility": "Using design systems to develop reusable components.Rapid prototyping.Working with mature eCommerce products.Collaborating strongly with the design team.",
+      "experience": "4 years",
+      "logo": "https://media.licdn.com/dms/image/C560BAQHgoYet8CCPAQ/company-logo_100_100/0/1601920937933?e=2147483647&v=beta&t=mv0e9D3m0XU3dvIyH3RGj9qSWlcZqOSVJg46ixgcEIA",
+      "description": " Writing well designed, testable, efficient code by using best software development practices. Creating static and dynamic website layout/ user interfaces by using standard HTML/ CSS practices. Integrating data from various back-end services and databases. Develop e-commerce website on WordPress and integrate with Google analytics.Maintaining and enhancing websites by adding and improving design and interactive features"
+    }
+  ]
