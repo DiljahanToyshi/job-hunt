@@ -9,6 +9,7 @@ import AppliedJobs from './Components/Navbar/AppliedJobs'
 import Blogs from './Components/Navbar/Blogs'
 import JobDetails from './Components/JobDetails'
 import ErrorPage from './Components/ErrorPage'
+import jobsAndappliedData from './Loaders/getjob'
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: "/applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
-        loader: () => fetch("/jobhunt.json"),
+        loader: jobsAndappliedData,
       },
       {
         path: "/blogs",

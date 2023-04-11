@@ -1,36 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import { getShoppingCart } from '../../utils/fakedb.js';
+
 import { useLoaderData } from 'react-router-dom';
 import {
   ChevronDownIcon
 } from "@heroicons/react/24/solid";
+import JobItem from '../JobItem';
 const AppliedJobs = () => {
-    const [jobs,setJobs]= useState([]);
-    const aJobs = useLoaderData();
+    const { cartArray } = useLoaderData();
     // const appliedJob = localStorage.getItem('applied-job');
- useEffect(() =>{
-      const savedJob = getShoppingCart();
-      let newArr = [];
-      for (const _id in savedJob) {
-        const foundJobs = aJobs.find((job) => job._id == _id);
-        if (foundJobs) {
-         newArr.push(foundJobs)
-        }
-      }
-      setJobs(newArr)
- },[])
-   console.log(jobs)
+
+   console.log(cartArray)
    
     
     return (
       <div>
-        <h1>this is AppliedJobs :{jobs.length}</h1>
-
-        <div className="text-right mt-5  ">
-          <button className=" bg-indigo-200 rounded-md p-2 px-3 flex items-end ">
-            <ChevronDownIcon className="h-6 w-6 text-violet-400 mr-1" /> Filter
-            By
+        <h2 className="font-bold text-3xl text-center ml-14 py-5 container bg-indigo-100 ">
+          {" "}
+          Applied Jobs
+        </h2>
+        <div className="text-right mt-16 ml-48  ">
+          <button className="  bg-indigo-200 rounded-md p-2 px-3 flex items-end ">
+            <ChevronDownIcon className="h-6 w-6 text-violet-400 mr-1" />{" "}
+            <span>Filter By</span>
           </button>
+        </div>
+
+        <div className=" m-3 flex items-start justify-center ">
+          <div className="flex flex-col  ">
+            <ul className="flex flex-col ">
+              {cartArray.map((job) => (
+                <JobItem key={job._id} job={job}></JobItem>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     );

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-      <div className="container">
-        <section className="flex  text-xl justify-between align-middle items-center m-7 ml-28 ">
+      <div className="container bg-indigo-100  mx-14">
+        <section className="flex  text-xl justify-between align-middle items-center p-4 ">
           <p className="font-semibold  text-3xl">CarrerLink</p>
           <Link to="/">Home</Link>
           <Link to="/statistics">Staistics</Link>

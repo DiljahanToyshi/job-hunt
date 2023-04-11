@@ -76,7 +76,7 @@ const handleAddtoCart = () =>{
               </p>
             </div>{" "}
             <div className="flex">
-              <CalendarDaysIcon className="h-6 w-6 text-violet-400" />
+              <CalendarDaysIcon className="h-7 w-6 text-violet-400" />
               <p className="pr-5">
                 Job Title:
                 <span className="text-gray-400 text-sm">{jobTitle}</span>

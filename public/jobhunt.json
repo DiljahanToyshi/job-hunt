@@ -9,7 +9,7 @@
         "number":"01750000000",
         "email": " info@gmail.com"
       },
-      "type": "Onsite",
+      "type": "part-time",
       "location":"Faridabad, Haryana, India",
       "salary":50000,
       "jobTitle": "Web Developer - HTML/CSS/Javascript",
@@ -45,7 +45,7 @@
         "number":"01750000000",
         "email": " info@gmail.com"
       },
-      "type": "onsite",
+      "type": "full-time",
       "location":"Hyderabad, Telangana, India ",
       "salary":50000,
       "jobTitle": "Jr. Web Developer",
@@ -63,7 +63,7 @@
         "number":"01750000000",
         "email": " info@gmail.com"
       },
-      "type": "onsite",
+      "type": "full-time",
       "location":"Hyderabad, Telangana, India ",
       "salary":50000,
       "jobTitle": "Frontend Developer - HTML/CSS",
@@ -81,7 +81,7 @@
         "number":"01750000000",
         "email": " info@gmail.com"
       },
-      "type": "onsite",
+      "type": "full-time",
       "location":" Coquille, OR",
       "salary":"$20.00 - $30.00 (USD) Hourly",
       "jobTitle": "Junior Frontend Web Developer",
@@ -99,7 +99,7 @@
         "number":"01750000000",
         "email": " info@gmail.com"
       },
-      "type": "onsite",
+      "type": "part-time",
       "location":"Kaunas, Kauno, Lithuania ",
       "salary":50000,
       "jobTitle": "Junior Frontend Developer",
