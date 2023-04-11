@@ -27,7 +27,6 @@ const JobDetails = () => {
       });
   }, []);
 const handleAddtoCart = () =>{
-    console.log(_id);
     addToDb(_id);
 }
 
