@@ -4,7 +4,7 @@ import frame from "./Image/Frame.png";
 import vector from "./Image/Vector.png";
 
 const JobItem = ({ job }) => {
-  const { _id, company_name, jobTitle, location, logo, salary } = job;
+  const { _id, company_name, jobTitle, location, logo, salary ,type} = job;
   return (
     <div>
       <li className="flex flex-col py-4 sm:flex-row sm:justify-between border-2 border-gray-200 rounded-md mt-6 px-10">
@@ -21,12 +21,9 @@ const JobItem = ({ job }) => {
                   {jobTitle}
                 </h3>
                 <p className="text-lg text-gray-400 my-2">{company_name}</p>
-                <div className=" text-violet-400">
-                  <button className="border border-indigo-400 rounded-sm p-1 px-2 mr-2">
-                    Full Time
-                  </button>
-                  <button className="border border-indigo-400 rounded-sm p-1 px-2">
-                    OnSite
+                <div className=" text-white font-normal">
+                  <button className="border border-indigo-400 bg-indigo-400 hover:bg-violet-400  rounded-sm p-1 px-2 mr-2">
+                    {type}
                   </button>
                 </div>
                 <div className="flex my-2">
