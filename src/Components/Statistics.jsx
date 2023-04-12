@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Statistics.css"
 import { PieChart, Pie } from 'recharts';
 
 import { Tooltip } from 'recharts';
