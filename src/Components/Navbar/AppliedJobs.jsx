@@ -4,12 +4,20 @@ import {
   ChevronDownIcon
 } from "@heroicons/react/24/solid";
 import JobItem from '../JobItem';
+import { useState } from 'react';
 const AppliedJobs = () => {
     const { cartArray } = useLoaderData();
+    const [jobs,setJobs] = useState(cartArray);
     // const appliedJob = localStorage.getItem('applied-job');
-
-   console.log(cartArray)
-   
+  //  console.log(cartArray);
+   const filterItem = (categItem) =>{
+    const updatedItems = cartArray.filter((fulltime) =>{
+      return fulltime.type ==  categItem;
+    })
+    setJobs(updatedItems)
+   };
+   console.log(jobs)
+  
     
     return (
       <div>
@@ -18,7 +26,7 @@ const AppliedJobs = () => {
           Applied Jobs
         </h2>
         <div className="text-right mt-16 ml-48  ">
-          <button className="  bg-indigo-200 rounded-md p-2 px-3 flex items-end ">
+          <button onClick={() =>filterItem('full-time')} className="  bg-indigo-200 rounded-md p-2 px-3 flex items-end ">
             <ChevronDownIcon className="h-6 w-6 text-violet-400 mr-1" />{" "}
             <span>Filter By</span>
           </button>
